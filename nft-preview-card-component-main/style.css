@@ -1,0 +1,87 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.equilibrium{
+    margin-left: 38%;
+    margin-top: 30px;
+    width: 312px;
+    height: 560px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 25px;
+    box-shadow: hsl(218, 49%, 10%, 0.3)0px 15px 3px 40px,;
+
+}
+
+.equilibrium img{
+    padding: 20px;
+}
+
+.equilibrium h1{
+    color: white;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.equilibrium h1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.equilibrium h4{
+    color: hsl(215, 51%, 70%);
+    padding-left: 20px;
+    font-weight: 300;
+}
+
+#price img{
+    display: block;
+}
+
+#price{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+#price h2{
+    color: hsl(178, 100%, 50%);
+    margin-left: -10px;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+
+#price p{
+    color: hsl(215, 51%, 70%);
+    margin-left: -10px;
+    margin-right: 25px;
+}
+
+#credits{
+    display: flex;
+    border-top: hsl(215, 32%, 27%) solid 1px;
+}
+
+#credits h5{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-bottom: 0px;
+}
+
+#credits span{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+#credits h5:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
