@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: hsl(235, 18%, 26%);
+}
+
+#container{
+    background-color: white;
+    display: flex;
+    margin: 10vh auto;
+    border-radius: 25px;
+    box-shadow: 0 0 50px;
+    width: 1050px;
+    height: 500px;
+    padding: 30px;
+    align-items: center;
+}
+
+#description{
+    width: 84%;
+}
+
+#info{
+    text-align: justify;
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+#info h1{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+#info p{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#info ul li{
+    list-style: none;
+    display: flex;
+
+}
+
+#info ul li svg{
+    margin-right: 20px;
+}
+
+#info h5{
+    margin-top: 25px;
+}
+
+#email-box{
+    display: flex;
+}
+
+#email{
+    margin-top: 10px;
+    padding-left: 25px;
+    width: 85%;
+    height: 45px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: 1px solid rgb(114, 114, 114);
+    transition: all 0.5s;
+}
+
+#email:hover{
+    border: 1px solid black;
+}
+
+#email::placeholder{
+    font-weight: 800;
+}
+
+#textEmail{
+    margin-top: 25px;
+    margin-left: 210px;
+    color: red;
+}
+
+#button{
+    width: 85%;
+    background-color: #232742;
+    border-radius: 7px;
+    height: 45px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9em;
+    border: none;
+    transition: all 0.2s;
+}
+
+#button:hover{
+    background-image: linear-gradient(to right, #ff5478, #ff693e);
+    cursor: pointer;
+    box-shadow: 0 5px 30px #ff693e;
+}
+
+/*Thanks-Box*/
+
+#thanks-box{
+    display: none;
+    margin: 10vh auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: left;
+    width: 450px;
+    box-shadow: 0 0 50px;
+    height: 500px;
+}
+
+#thanks-box h1{
+    font-size: 3em;
+    margin-top: 30px;
+}
+
+#thanks-box p{
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+#thanks-box span{
+    font-weight: 700;
+}
+
+#thanks-button{
+    width: 100%;
+    background-color: #232742;
+    border-radius: 7px;
+    height: 55px;
+    margin-top: 45px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9em;
+    border: none;
+    transition: all 0.2s;
+}
+
+#thanks-button:hover{
+    background-image: linear-gradient(to right, #ff5478, #ff693e);
+    cursor: pointer;
+    box-shadow: 0 5px 30px #ff693e;
+}
