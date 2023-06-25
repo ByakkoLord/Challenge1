@@ -21,9 +21,18 @@ button.addEventListener("click", () => {
       email.style.border = ''
       block1.style.display = 'none'
       block2.style.display = 'block'
-      email.style.outlineColor = 'none'
+      email.style.outlineColor = 'black'
     }
   });
+
+  email.addEventListener("keyup", () => {
+    if (email.value == ''){
+        textEmail.textContent = "";
+      email.style.background = ''
+      email.style.border = ''
+      email.style.outlineColor = 'black'
+    }
+  })
 
 function dismiss(){
     block1.style.display = 'flex'
